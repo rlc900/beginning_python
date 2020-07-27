@@ -40,3 +40,23 @@ numbers  =[1,4,67,8,24,53,10]
 #         return num3
 #
 # print(max_num(23,6,18))
+
+# building a better calulator
+
+# num1 = float(input("Enter first number: "))
+# op = input("Enter operator: ")
+# num2 = float(input("Enter second number: "))
+#
+# if op == "+":
+#     print(num1 + num2)
+# elif op == "-":
+#     print(num1 - num2)
+# elif op == "*":
+#     print(num1 * num2)
+# elif op == "/":
+#     print(num1 / num2)
+# else:
+#     print("Invalid operator")
+
+
+
