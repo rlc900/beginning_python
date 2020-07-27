@@ -16,3 +16,27 @@
 # print("Roses are " + color)
 # print(plural_noun + " are blue")
 # print("I love " + celebrity)
+
+# LISTS
+
+fruits = ['apple', 'kiwi', 'banana']
+numbers  =[1,4,67,8,24,53,10]
+
+# fruits.extend(numbers)
+# fruits.append()
+# fruits.insert(1, "pears")
+# print(fruits)
+
+# TUPLES
+# coordinates = (4, 5)
+# print(coordinates[0])
+#
+# def max_num(num1, num2, num3):
+#     if num1 >= num2 and num1 >= num3:
+#         return num1
+#     elif num2 >= num1 and num1 >= num3:
+#         return num2
+#     else:
+#         return num3
+#
+# print(max_num(23,6,18))
