@@ -75,12 +75,25 @@ numbers  =[1,4,67,8,24,53,10]
 # else:
 #     print("You win!")
 
-def exponent_func(base_num, pwr_num):
-    result = 1
-    for index in range(pwr_num):
-        result = result * base_num
-    return result
+# def exponent_func(base_num, pwr_num):
+#     result = 1
+#     for index in range(pwr_num):
+#         result = result * base_num
+#     return result
+#
+# print(exponent_func(3, 2))
 
-print(exponent_func(3, 2))
+# def translate(phrase):
+#     translation = ''
+#     for letter in phrase:
+#         i = 0
+#         if letter in "AEIOUaeiou":
+#             translation += "g"
+#         else:
+#             translation += letter
+#     return translation
+#
+# print(translate(input("Enter a phrase: ")))
+
 
 
