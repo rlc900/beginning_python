@@ -1,3 +1,4 @@
+from Student import Student
 # print("Hello World")
 
 # MINI CALCULATOR
@@ -106,3 +107,8 @@ numbers  =[1,4,67,8,24,53,10]
 #     print("Divided by zero")
 # except ValueError:
 #     print("Invalid Input")
+
+student1 = Student("Rianna", "Computer Science", 3.8, False)
+
+print(student1)
+
