@@ -88,12 +88,21 @@ numbers  =[1,4,67,8,24,53,10]
 #     for letter in phrase:
 #         i = 0
 #         if letter in "AEIOUaeiou":
-#             translation += "g"
+#                 if letter.isupper():
+#                      translation += "G"
+#                 else:
+#                    translation += "g"
 #         else:
 #             translation += letter
 #     return translation
 #
 # print(translate(input("Enter a phrase: ")))
 
-
-
+# try:
+#     # value = 10/0
+#     number = int(input("Enter a number: "))
+#     print(number)
+# except ZeroDivisionError:
+#     print("Divided by zero")
+# except ValueError:
+#     print("Invalid Input")
